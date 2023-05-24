@@ -26,7 +26,7 @@ const Services = () => {
 	return (
 		<div className='container'>
 			<div className='Services'>
-				<div className='Services__title'>Services we provide </div>
+				<div className='Service__title'>Services we provide </div>
 				<div className='Service__about'>
 					Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar
 					elementum tempus hac tellus libero accumsan.

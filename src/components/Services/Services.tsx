@@ -1,13 +1,8 @@
 import { useEffect, useState } from 'react'
+import '../Interface/ServiceType'
 import Service from '../Service/Service'
 import './Services.sass'
 const Services = () => {
-	interface ServiceType {
-		img: string
-		name: string
-		about: string
-		key: number
-	}
 	interface ObjectTypes extends ServiceType {}
 
 	const [collections, setCollections] = useState<ServiceType[]>([])

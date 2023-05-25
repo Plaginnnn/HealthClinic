@@ -1,10 +1,5 @@
+import '../Interface/ServiceType'
 import './Service.sass'
-interface ServiceType {
-	img: string
-	name: string
-	about: string
-	key: number
-}
 
 const Service = ({ img, name, about, key }: ServiceType) => {
 	return (
